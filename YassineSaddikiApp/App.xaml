@@ -11,4 +11,23 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
+
+    <Application.MainPage>
+        <Shell>
+            <TabBar x:Name="PhoneTabs">
+                <Tab Title="Home">
+                    <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
+                </Tab>
+                <Tab Title="X">
+                    <ShellContent ContentTemplate="{DataTemplate local:SecondPage}"/>
+                </Tab>
+                <Tab Title="X">
+                    <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
+                </Tab>
+                <Tab Title="X">
+                    <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
+                </Tab>
+            </TabBar>
+        </Shell>
+    </Application.MainPage>
 </Application>
