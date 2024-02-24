@@ -15,17 +15,17 @@
     <Application.MainPage>
         <Shell>
             <TabBar x:Name="PhoneTabs">
-                <Tab Title="Home">
+                <Tab Title="Home" Icon="home.svg">
                     <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
                 </Tab>
-                <Tab Title="X">
+                <Tab Title="X" Icon="option.svg">
                     <ShellContent ContentTemplate="{DataTemplate local:SecondPage}"/>
                 </Tab>
-                <Tab Title="X">
-                    <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
+                <Tab Title="X" Icon="option.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:ThirdPage}"/>
                 </Tab>
-                <Tab Title="X">
-                    <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
+                <Tab Title="X" Icon="option.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:FourthPage}"/>
                 </Tab>
             </TabBar>
         </Shell>

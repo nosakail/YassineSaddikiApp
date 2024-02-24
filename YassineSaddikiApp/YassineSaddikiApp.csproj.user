@@ -8,23 +8,20 @@
     <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Pages\FourthPage.xaml">
+    <MauiXaml Update="FourthPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\HomePage.xaml">
+    <MauiXaml Update="HomePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\SecondPage.xaml">
+    <MauiXaml Update="SecondPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\ThirdPage.xaml">
+    <MauiXaml Update="ThirdPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
   <ItemGroup>
-    <None Update="App.xaml">
-      <SubType>Designer</SubType>
-    </None>
     <None Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </None>

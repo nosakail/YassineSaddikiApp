@@ -1,4 +1,4 @@
-namespace YassineSaddikiApp.Pages;
+namespace YassineSaddikiApp;
 
 public partial class ThirdPage : ContentView
 {
