@@ -2,11 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="YassineSaddikiApp.HomePage"
-             Title="HomePage">
+             Background="#FF000000">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to Home page !"
+            x:Name="Title"
+            Text="Café Compass"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            TextColor="White"/>
+        <Label 
+            x:Name="SubTitle"
+            Text="Explorez un Monde de Saveurs et de Connexions Caféinées"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            TextColor="White"/>   
     </VerticalStackLayout>
 </ContentPage>
