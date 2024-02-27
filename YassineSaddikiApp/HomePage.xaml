@@ -5,16 +5,41 @@
              Background="#FF000000">
     <VerticalStackLayout>
         <Label 
-            x:Name="Title"
+            x:Name="title"
             Text="Café Compass"
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
-            TextColor="White"/>
+            TextColor="SaddleBrown"
+            FontAttributes="Bold"
+            FontSize="24"
+            FontFamily="Oswald"
+            Margin="0,20,0,0"/>
         <Label 
-            x:Name="SubTitle"
+            x:Name="subTitle"
             Text="Explorez un Monde de Saveurs et de Connexions Caféinées"
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
-            TextColor="White"/>   
+            TextColor="SaddleBrown"
+            FontSize="13"
+            Margin="0,15,0,0"/>
+        <CarouselView IndicatorView="indicatorView">
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Item 1</x:String>
+                    <x:String>Item 2</x:String>
+                    <x:String>Item 3</x:String>
+                </x:Array>
+            </CarouselView.ItemsSource>
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout BackgroundColor="#FF000000" Padding="10" Margin="0,50,0,0" >
+                        <Label TextColor="White" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding .}"/>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <IndicatorView x:Name="indicatorView" Margin="5" HorizontalOptions="Center" IndicatorColor="White" SelectedIndicatorColor="SaddleBrown"/>
     </VerticalStackLayout>
+    
 </ContentPage>
