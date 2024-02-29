@@ -14,6 +14,9 @@ namespace YassineSaddikiApp
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                     fonts.AddFont("Oswald-Bold.ttf", "Oswald");
+                    fonts.AddFont("PlayfairDisplay-Bold.ttf", "PlayfairDisplayBold");
+                    fonts.AddFont("PlayfairDisplay-Italic.ttf", "PlayfairDisplayItalic");
+
                 });
 
 #if DEBUG

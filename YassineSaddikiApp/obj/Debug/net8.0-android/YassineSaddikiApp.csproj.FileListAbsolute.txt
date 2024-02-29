@@ -1048,3 +1048,11 @@ C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-andr
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\f\Oswald-Bold.ttf
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\cappuccino.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\caramel.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\noir.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\f\PlayfairDisplay-Bold.ttf
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\f\PlayfairDisplay-Italic-VariableFont_wght.ttf
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\f\PlayfairDisplay-Italic.ttf
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\certification.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\logo.png
