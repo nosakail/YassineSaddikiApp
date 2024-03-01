@@ -47,7 +47,16 @@
 
         <IndicatorView x:Name="indicatorView" Margin="5" HorizontalOptions="Center" IndicatorColor="Black" SelectedIndicatorColor="SaddleBrown"/>
 
-        <Button Text="Clic" CornerRadius="10" BackgroundColor="Green" TextColor="White" Padding="10" Margin="20" />
+        <Button Text="GIF" 
+                CornerRadius="10" 
+                BackgroundColor="SandyBrown" 
+                FontAttributes="Bold" 
+                FontSize="20" 
+                TextColor="White" 
+                FontFamily="Oswald" 
+                Padding="10"
+                Margin="20" 
+                Clicked="Clicked"/>
 
         <Image Source="certification.png" />
 

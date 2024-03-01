@@ -18,4 +18,8 @@ public partial class HomePage : ContentPage
             };
         carouselView.ItemsSource = items;
     }
+    private async void Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new GifPage());
+    }
 }

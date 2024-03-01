@@ -30,6 +30,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.FourthPa
 build_metadata.AdditionalFiles.TargetPath = FourthPage.xaml
 build_metadata.AdditionalFiles.RelativePath = FourthPage.xaml
 
+[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/GifPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.GifPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GifPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GifPage.xaml
+
 [C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.HomePage.xaml
