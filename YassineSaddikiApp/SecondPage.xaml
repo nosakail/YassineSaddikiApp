@@ -2,11 +2,41 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="YassineSaddikiApp.SecondPage"
-             Title="SecondPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to 2"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Background="White">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                Text="Nos produits"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="SaddleBrown"
+                FontAttributes="Bold"
+                FontSize="17"
+                FontFamily="Oswald"
+                />   
+            <StackLayout>
+                <ListView x:Name="coffeeListView" Margin="0,20,0,0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding Image}" WidthRequest="100" HeightRequest="100"/>
+                                    <StackLayout>
+                                        <Label Text="{Binding Title}" 
+                                               FontAttributes="Bold" 
+                                               TextColor="Black" 
+                                               FontFamily="Oswald"/>
+                                        <Label Text="{Binding Description}" 
+                                               LineBreakMode="WordWrap" 
+                                               TextColor="Black"
+                                               FontFamily="PlayfairDisplayItalic"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

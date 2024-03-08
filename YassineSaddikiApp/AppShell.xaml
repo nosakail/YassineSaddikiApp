@@ -11,7 +11,7 @@
         <Tab Title="Home" Icon="home.svg">
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
         </Tab>
-        <Tab Title="X" Icon="option.svg">
+        <Tab Title="X" Icon="buy.svg">
             <ShellContent ContentTemplate="{DataTemplate local:SecondPage}"/>
         </Tab>
         <Tab Title="X" Icon="option.svg">

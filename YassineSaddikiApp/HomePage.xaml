@@ -3,63 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="YassineSaddikiApp.HomePage"
              Background="White">
-    <VerticalStackLayout>
-        <Label 
-            x:Name="title"
-            Text="Café Compass"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
-            TextColor="SaddleBrown"
-            FontAttributes="Bold"
-            FontSize="24"
-            FontFamily="Oswald"
-            Margin="0,20,0,0"/>
-        <Label 
-            x:Name="subTitle"
-            Text="Explorez un Monde de Saveurs et de Connexions Caféinées"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
-            TextColor="SaddleBrown"
-            FontSize="13"
-            Margin="0,15,0,0"/>
-        <CarouselView x:Name="carouselView" IndicatorView="indicatorView">
-            <!--
-            <CarouselView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Item 1</x:String>
-                    <x:String>Item 2</x:String>
-                    <x:String>Item 3</x:String>
-                </x:Array>
-            </CarouselView.ItemsSource>
-            -->
-            
-            
-            <CarouselView.ItemTemplate>
-                <DataTemplate>
-                    <VerticalStackLayout BackgroundColor="White" Padding="10" Margin="0,40,0,0" >
-                        <Label FontFamily="PlayfairDisplayBold" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Title}"/>
-                        <Label FontFamily="PlayfairDisplayItalic" TextColor="Black" FontSize="Small"  HorizontalTextAlignment="Center" Text="{Binding Description}"/>
-                        <Image Source="{Binding ImagePath}" />
-                    </VerticalStackLayout>
-                </DataTemplate>
-            </CarouselView.ItemTemplate>
-        </CarouselView>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                x:Name="title"
+                Text="Café Compass"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="SaddleBrown"
+                FontAttributes="Bold"
+                FontSize="24"
+                FontFamily="Oswald"
+                Margin="0,20,0,0"/>
+            <Label 
+                x:Name="subTitle"
+                Text="Explorez un Monde de Saveurs et de Connexions Caféinées"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="SaddleBrown"
+                FontSize="13"
+                Margin="0,15,0,0"/>
+            <CarouselView x:Name="carouselView" IndicatorView="indicatorView">
+                <!--
+                <CarouselView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 2</x:String>
+                        <x:String>Item 3</x:String>
+                    </x:Array>
+                </CarouselView.ItemsSource>
+                -->
 
-        <IndicatorView x:Name="indicatorView" Margin="5" HorizontalOptions="Center" IndicatorColor="Black" SelectedIndicatorColor="SaddleBrown"/>
 
-        <Button Text="GIF" 
-                CornerRadius="10" 
-                BackgroundColor="SandyBrown" 
-                FontAttributes="Bold" 
-                FontSize="20" 
-                TextColor="White" 
-                FontFamily="Oswald" 
-                Padding="10"
-                Margin="20" 
-                Clicked="Clicked"/>
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout BackgroundColor="White" Padding="10" Margin="0,40,0,0" >
+                            <Label FontFamily="PlayfairDisplayBold" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Title}"/>
+                            <Label FontFamily="PlayfairDisplayItalic" TextColor="Black" FontSize="Small"  HorizontalTextAlignment="Center" Text="{Binding Description}"/>
+                            <Image Source="{Binding ImagePath}" />
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
 
-        <Image Source="certification.png" />
+            <IndicatorView x:Name="indicatorView" Margin="5" HorizontalOptions="Center" IndicatorColor="Black" SelectedIndicatorColor="SaddleBrown"/>
 
-    </VerticalStackLayout>
-    
+            <Button Text="GIF" 
+                    CornerRadius="10" 
+                    BackgroundColor="SandyBrown" 
+                    FontAttributes="Bold" 
+                    FontSize="20" 
+                    TextColor="White" 
+                    FontFamily="Oswald" 
+                    Padding="10"
+                    Margin="20" 
+                    Clicked="Clicked"/>
+
+            <Image Source="certification.png" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>

@@ -3,29 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="YassineSaddikiApp.GifPage"
              >
-    <VerticalStackLayout>
-        <!--<Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />-->
-        <Image 
-            Source="stonks.gif"
-            HeightRequest="200" 
-            HorizontalOptions="Center" 
-            IsAnimationPlaying="True"/>
-        
-        <Image Source="imgpromo.png" />
-        
-        <Button 
-            Text="BACK" 
-            CornerRadius="10" 
-            BackgroundColor="SandyBrown" 
-            FontAttributes="Bold" 
-            FontSize="20" 
-            TextColor="White" 
-            FontFamily="Oswald" 
-            Padding="10"
-            Margin="20" 
-            Clicked="Clicked"/>
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image 
+                Source="stonks.gif"
+                HeightRequest="200" 
+                HorizontalOptions="Center" 
+                IsAnimationPlaying="True"/>
+
+            <Image Source="imgpromo.png" />
+
+            <Button 
+                Text="BACK" 
+                CornerRadius="10" 
+                BackgroundColor="SandyBrown" 
+                FontAttributes="Bold" 
+                FontSize="20" 
+                TextColor="White" 
+                FontFamily="Oswald" 
+                Padding="10"
+                Margin="20" 
+                Clicked="Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
