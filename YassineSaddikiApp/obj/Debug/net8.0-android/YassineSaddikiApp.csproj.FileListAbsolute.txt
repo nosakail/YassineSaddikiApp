@@ -1064,3 +1064,9 @@ C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-andr
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\product.png
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\product.png
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\product.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\buy.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\buy.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\buy.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\buy.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\buy.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\badge.png

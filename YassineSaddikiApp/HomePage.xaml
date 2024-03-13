@@ -14,15 +14,21 @@
                 FontAttributes="Bold"
                 FontSize="24"
                 FontFamily="Oswald"
-                Margin="0,20,0,0"/>
-            <Label 
+                />
+
+            <StackLayout Margin="0,5,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Image Source="logo.png" Margin="5"/>
+                <Image Source="badge.png" Margin="5"/>
+            </StackLayout>
+            
+            <!--<Label 
                 x:Name="subTitle"
                 Text="Explorez un Monde de Saveurs et de Connexions Caféinées"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                 TextColor="SaddleBrown"
                 FontSize="13"
-                Margin="0,15,0,0"/>
+                Margin="0,15,0,0"/>-->
             <CarouselView x:Name="carouselView" IndicatorView="indicatorView">
                 <!--
                 <CarouselView.ItemsSource>
@@ -30,14 +36,14 @@
                         <x:String>Item 1</x:String>
                         <x:String>Item 2</x:String>
                         <x:String>Item 3</x:String>
-                    </x:Array>
+                    </x:Array> 
                 </CarouselView.ItemsSource>
                 -->
 
 
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-                        <VerticalStackLayout BackgroundColor="White" Padding="10" Margin="0,40,0,0" >
+                        <VerticalStackLayout BackgroundColor="White" Padding="10"  >
                             <Label FontFamily="PlayfairDisplayBold" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Title}"/>
                             <Label FontFamily="PlayfairDisplayItalic" TextColor="Black" FontSize="Small"  HorizontalTextAlignment="Center" Text="{Binding Description}"/>
                             <Image Source="{Binding ImagePath}" />

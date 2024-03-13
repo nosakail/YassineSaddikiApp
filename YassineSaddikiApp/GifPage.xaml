@@ -6,6 +6,7 @@
     <ScrollView>
         <VerticalStackLayout>
             <Image 
+                x:Name="stonksgif"
                 Source="stonks.gif"
                 HeightRequest="200" 
                 HorizontalOptions="Center" 

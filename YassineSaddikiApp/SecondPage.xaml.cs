@@ -1,28 +1,38 @@
 using Newtonsoft.Json;
 
-namespace YassineSaddikiApp;
-
-public partial class SecondPage : ContentPage
+namespace YassineSaddikiApp
 {
-	public SecondPage()
-	{
-		InitializeComponent();
-        LoadCoffeeData();
-
-    }
-    private async void LoadCoffeeData()
+    public partial class SecondPage : ContentPage
     {
-        try
+        public SecondPage()
         {
-            HttpClient client = new HttpClient();
-            string url = "https://api.sampleapis.com/coffee/hot";
-            string json = await client.GetStringAsync(url);
-            List<Coffee> coffees = JsonConvert.DeserializeObject<List<Coffee>>(json);
-            coffeeListView.ItemsSource = coffees;
+            InitializeComponent();
+            LoadCoffeeData();
+            coffeeListView.ItemTapped += CoffeeListView_ItemTapped;
         }
-        catch (Exception ex)
+
+        private async void LoadCoffeeData()
         {
-            Console.WriteLine($"Error: {ex.Message}");
+            try
+            {
+                HttpClient client = new HttpClient();
+                string url = "https://api.sampleapis.com/coffee/hot";
+                string json = await client.GetStringAsync(url);
+                List<Coffee> coffees = JsonConvert.DeserializeObject<List<Coffee>>(json);
+                coffeeListView.ItemsSource = coffees;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+
+        private async void CoffeeListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            if (e.Item is Coffee coffee)
+            {
+                await Navigation.PushAsync(new CoffeeDetailPage(coffee));
+            }
         }
     }
 
@@ -34,5 +44,4 @@ public partial class SecondPage : ContentPage
         public string Image { get; set; }
         public int Id { get; set; }
     }
-
 }

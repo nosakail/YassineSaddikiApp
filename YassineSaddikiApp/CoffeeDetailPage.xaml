@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YassineSaddikiApp.CoffeeDetailPage"
+             Background="White">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Image x:Name="coffeeImage" HeightRequest="200" Aspect="AspectFill" />
+            <Label x:Name="titleLabel" FontAttributes="Bold" FontSize="24" TextColor="Black" Margin="0,10,0,0"/>
+            <Label x:Name="descriptionLabel" FontSize="16" TextColor="Black" Margin="0,10,0,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

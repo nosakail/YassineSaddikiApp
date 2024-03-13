@@ -8,6 +8,9 @@
     <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="CoffeeDetailPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="FourthPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
