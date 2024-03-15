@@ -2,10 +2,22 @@
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="YassineSaddikiApp.ThirdPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to 3"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                Text="Crée votre propre produit !"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="SaddleBrown"
+                FontAttributes="Bold"
+                FontSize="20"
+                FontFamily="Oswald"
+                />
+            <Entry Placeholder="Titre" x:Name="titreEntry" />
+
+            <Editor Placeholder="Description" x:Name="descriptionEditor" />
+        </VerticalStackLayout>
+    </ScrollView>
+    
 </ContentView>

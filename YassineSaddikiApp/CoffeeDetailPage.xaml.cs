@@ -16,5 +16,10 @@ namespace YassineSaddikiApp
             descriptionLabel.Text = coffee.Description;
             coffeeImage.Source = coffee.Image;
         }
+
+        private async void Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SecondPage());
+        }
     }
 }
