@@ -1,4 +1,4 @@
-﻿namespace YassineSaddikiApp
+﻿ namespace YassineSaddikiApp
 {
     public partial class MainPage : ContentPage
     {

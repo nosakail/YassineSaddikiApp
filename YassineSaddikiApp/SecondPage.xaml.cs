@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using YassineSaddikiApp.Models.ViewModels;
 
 namespace YassineSaddikiApp
 {
@@ -18,7 +19,7 @@ namespace YassineSaddikiApp
                 HttpClient client = new HttpClient();
                 string url = "https://api.sampleapis.com/coffee/hot";
                 string json = await client.GetStringAsync(url);
-                List<Coffee> coffees = JsonConvert.DeserializeObject<List<Coffee>>(json);
+                List<CoffeeItems> coffees = JsonConvert.DeserializeObject<List<CoffeeItems>>(json);
                 coffeeListView.ItemsSource = coffees;
             }
             catch (Exception ex)
@@ -29,19 +30,12 @@ namespace YassineSaddikiApp
 
         private async void CoffeeListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            if (e.Item is Coffee coffee)
+            if (e.Item is CoffeeItems coffee)
             {
                 await Navigation.PushAsync(new CoffeeDetailPage(coffee));
             }
         }
     }
 
-    public class Coffee
-    {
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public List<string> Ingredients { get; set; }
-        public string Image { get; set; }
-        public int Id { get; set; }
-    }
+
 }
