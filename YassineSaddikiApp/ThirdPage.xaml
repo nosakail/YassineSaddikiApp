@@ -6,7 +6,7 @@
     <ScrollView>
         <VerticalStackLayout>
             <Label 
-                Text="Crée votre propre produit !"
+                Text="Des idées ? Dites nous tous !"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                 TextColor="SaddleBrown"
