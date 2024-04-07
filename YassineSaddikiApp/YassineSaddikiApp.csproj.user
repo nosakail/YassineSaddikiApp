@@ -7,6 +7,10 @@
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>Medium_Phone_API_34</DefaultDevice>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+    <PlatformTarget>arm64</PlatformTarget>
+  </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="CoffeeDetailPage.xaml">
       <SubType>Designer</SubType>
@@ -18,6 +22,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="HomePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="PageThird.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="SecondPage.xaml">

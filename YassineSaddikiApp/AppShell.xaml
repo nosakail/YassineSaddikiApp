@@ -15,7 +15,7 @@
             <ShellContent ContentTemplate="{DataTemplate local:SecondPage}"/>
         </Tab>
         <Tab Title="Third" Icon="option.svg">
-            <ShellContent ContentTemplate="{DataTemplate local:ThirdPage}"/>
+            <ShellContent ContentTemplate="{DataTemplate local:PageThird}"/>
         </Tab>
         <Tab Title="Fourth" Icon="option.svg">
             <ShellContent ContentTemplate="{DataTemplate local:FourthPage}"/>
