@@ -9,6 +9,7 @@ public partial class GifPage : ContentPage
 
     }
 
+
     private async void Clicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new HomePage());
@@ -16,8 +17,11 @@ public partial class GifPage : ContentPage
 
     protected override async void OnAppearing()
     {
+
         base.OnAppearing();
-        await Task.Delay(1000);
+        await Task.Delay(100);
+        stonksgif.IsAnimationPlaying = false;
+        await Task.Delay(100);
         stonksgif.IsAnimationPlaying = true;
     }
 }
