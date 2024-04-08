@@ -77,9 +77,3 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.SecondPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SecondPage.xaml
 build_metadata.AdditionalFiles.RelativePath = SecondPage.xaml
-
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/ThirdPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.ThirdPage.xaml
-build_metadata.AdditionalFiles.TargetPath = ThirdPage.xaml
-build_metadata.AdditionalFiles.RelativePath = ThirdPage.xaml

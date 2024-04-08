@@ -1070,3 +1070,5 @@ C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-andr
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
 C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\cafe.png
+C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\description.png

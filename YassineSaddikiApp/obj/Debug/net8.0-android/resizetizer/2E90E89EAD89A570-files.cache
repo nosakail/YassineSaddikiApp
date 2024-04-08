@@ -1,7 +1,9 @@
 ﻿obj\Debug\net8.0-android\resizetizer\r\drawable\badge.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\cafe.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\cappuccino.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\caramel.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\certification.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\description.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\imgpromo.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\logo.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\noir.png
