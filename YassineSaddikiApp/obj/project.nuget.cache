@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vpDA2Vrdr5moX9rb9n8STCH5puTa/Kcw+UeB5b5R5iio61mtSPfObHEpVrZV+rgfRPs3KqWVXXm+yFIgSonN5A==",
+  "dgSpecHash": "JZ69dSHuvWPuPHX249EkDp3Dmg6Nwz0au7pcxUDdr//aCa/waBQkeUSDToz5Fn0HCgZJ7/i7dvDRDgNhNyxRFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yassi\\Desktop\\YassineSaddikiApp\\YassineSaddikiApp\\YassineSaddikiApp.csproj",
+  "projectFilePath": "C:\\Users\\yassi\\Documents\\YassineSaddikiApp\\YassineSaddikiApp\\YassineSaddikiApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yassi\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\yassi\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

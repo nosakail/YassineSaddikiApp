@@ -36,6 +36,14 @@
                 </Frame>
             </StackLayout>
 
+            <Image
+                x:Name="Image_Upload"
+                HeightRequest="200"
+                WidthRequest="200"
+                HorizontalOptions="Center"/>
+            
+            <Button Clicked="UploadImage_Clicked"  Text="Chosir une image" WidthRequest="100" CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="SandyBrown"/>
+            
             <Button Text="Ajouter" WidthRequest="100" CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="SandyBrown"/>
         </VerticalStackLayout>
     </ScrollView>

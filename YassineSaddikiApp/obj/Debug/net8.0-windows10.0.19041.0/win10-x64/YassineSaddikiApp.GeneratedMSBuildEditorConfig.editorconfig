@@ -8,71 +8,71 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = YassineSaddikiApp
-build_property.ProjectDir = C:\Users\yassi\Desktop\YassineSaddikiApp\YassineSaddikiApp\
+build_property.ProjectDir = C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/App.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/AppShell.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/CoffeeDetailPage.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/CoffeeDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.CoffeeDetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CoffeeDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CoffeeDetailPage.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/FourthPage.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/FourthPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.FourthPage.xaml
 build_metadata.AdditionalFiles.TargetPath = FourthPage.xaml
 build_metadata.AdditionalFiles.RelativePath = FourthPage.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/GifPage.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/GifPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.GifPage.xaml
 build_metadata.AdditionalFiles.TargetPath = GifPage.xaml
 build_metadata.AdditionalFiles.RelativePath = GifPage.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/HomePage.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/MainPage.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/PageThird.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/PageThird.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.PageThird.xaml
 build_metadata.AdditionalFiles.TargetPath = PageThird.xaml
 build_metadata.AdditionalFiles.RelativePath = PageThird.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/Resources/Styles/Colors.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/Resources/Styles/Styles.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/yassi/Desktop/YassineSaddikiApp/YassineSaddikiApp/SecondPage.xaml]
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/SecondPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.SecondPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SecondPage.xaml

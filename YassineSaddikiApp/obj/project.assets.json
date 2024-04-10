@@ -33387,11 +33387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yassi\\Desktop\\YassineSaddikiApp\\YassineSaddikiApp\\YassineSaddikiApp.csproj",
+      "projectUniqueName": "C:\\Users\\yassi\\Documents\\YassineSaddikiApp\\YassineSaddikiApp\\YassineSaddikiApp.csproj",
       "projectName": "YassineSaddikiApp",
-      "projectPath": "C:\\Users\\yassi\\Desktop\\YassineSaddikiApp\\YassineSaddikiApp\\YassineSaddikiApp.csproj",
+      "projectPath": "C:\\Users\\yassi\\Documents\\YassineSaddikiApp\\YassineSaddikiApp\\YassineSaddikiApp.csproj",
       "packagesPath": "C:\\Users\\yassi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yassi\\Desktop\\YassineSaddikiApp\\YassineSaddikiApp\\obj\\",
+      "outputPath": "C:\\Users\\yassi\\Documents\\YassineSaddikiApp\\YassineSaddikiApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

@@ -98,7 +98,6 @@
 
 	<ItemGroup>
 	  <Folder Include="Pages\" />
-	  <Folder Include="ViewModels\" />
 	</ItemGroup>
 
 </Project>
