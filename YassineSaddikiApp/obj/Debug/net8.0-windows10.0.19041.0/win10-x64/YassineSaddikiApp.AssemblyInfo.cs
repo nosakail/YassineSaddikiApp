@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YassineSaddikiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9679b56c55cbf27cdfc781aa9f45834847ce077d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+da63ecd1ec4029939c794ee8155f3a3fde8b4520")]
 [assembly: System.Reflection.AssemblyProductAttribute("YassineSaddikiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YassineSaddikiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

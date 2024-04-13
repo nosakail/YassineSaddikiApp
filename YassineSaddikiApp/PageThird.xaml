@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:handlers="clr-namespace:YassineSaddikiApp.Handlers"
+             Shell.NavBarIsVisible="False"
              x:Class="YassineSaddikiApp.PageThird"
              >
     <ScrollView>
@@ -18,21 +19,21 @@
             <!--<Entry Placeholder="Titre" x:Name="titreEntry" />
             <Editor Placeholder="Description" x:Name="descriptionEditor" />-->
 
-            <StackLayout Orientation="Horizontal">
+            <StackLayout Margin="0,70,0,0" Orientation="Horizontal">
                 <Frame ZIndex="1"  HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
                     <Image Source="cafe.png" HeightRequest="20" WidthRequest="20"/>
                 </Frame>
                 <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
-                    <handlers:BorderlessEntry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Titre" Keyboard="Email"/>
+                    <handlers:BorderlessEntry x:Name="titreEntry" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Titre" Keyboard="Email"/>
                 </Frame>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal">
+            <StackLayout Margin="0,10,0,0" Orientation="Horizontal">
                 <Frame ZIndex="1"  HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
                     <Image Source="description.png" HeightRequest="20" WidthRequest="20"/>
                 </Frame>
                 <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
-                    <handlers:BorderlessEntry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Description"   Keyboard="Email"/>
+                    <handlers:BorderlessEntry  x:Name="descriptionEditor" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Description"   Keyboard="Email"/>
                 </Frame>
             </StackLayout>
 
@@ -42,9 +43,9 @@
                 WidthRequest="200"
                 HorizontalOptions="Center"/>
             
-            <Button Clicked="UploadImage_Clicked"  Text="Chosir une image" WidthRequest="100" CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="SandyBrown"/>
-            
-            <Button Text="Ajouter" WidthRequest="100" CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="SandyBrown"/>
+            <Button Clicked="UploadImage_Clicked"  Text="Chosir une image"  CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="SandyBrown"/>
+
+            <Button Clicked="AddToListButton_Clicked" Text="Ajouter à la liste" Margin="0,20,0,0" CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="DeepSkyBlue"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -12,13 +12,13 @@
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
         </Tab>
         <Tab Title="Second" Icon="buy.svg">
-            <ShellContent ContentTemplate="{DataTemplate local:SecondPage}"/>
+            <ShellContent   ContentTemplate="{DataTemplate local:SecondPage}"/>
         </Tab>
         <Tab Title="Third" Icon="option.svg">
-            <ShellContent ContentTemplate="{DataTemplate local:PageThird}"/>
+            <ShellContent   ContentTemplate="{DataTemplate local:PageThird}"/>
         </Tab>
         <Tab Title="Fourth" Icon="option.svg">
-            <ShellContent ContentTemplate="{DataTemplate local:FourthPage}"/>
+            <ShellContent  ContentTemplate="{DataTemplate local:FourthPage}"/>
         </Tab>
     </TabBar>
 

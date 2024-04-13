@@ -12,6 +12,8 @@ namespace YassineSaddikiApp
             coffeeListView.ItemTapped += CoffeeListView_ItemTapped;
         }
 
+        
+
         private async void LoadCoffeeData()
         {
             try
@@ -35,6 +37,21 @@ namespace YassineSaddikiApp
                 await Navigation.PushAsync(new CoffeeDetailPage(coffee));
             }
         }
+
+        public void AddCoffeeItem(string title, string description, string image)
+        {
+            var newCoffee = new CoffeeItems
+            {
+                Title = title,
+                Description = description,
+                Image = image
+            };
+
+            
+            ((List<CoffeeItems>)coffeeListView.ItemsSource).Add(newCoffee);
+        }
+
+
     }
 
 
