@@ -5,10 +5,6 @@
              Shell.NavBarIsVisible="False"
              x:Class="YassineSaddikiApp.PageThird"
              >
-    <ContentPage.BindingContext>
-        <vm:SecondPageViewModel xmlns:vm="clr-namespace:YassineSaddikiApp.ViewModels" />
-    </ContentPage.BindingContext>
-    
     <ScrollView>
         <VerticalStackLayout>
             <Label 
@@ -28,7 +24,7 @@
                     <Image Source="cafe.png" HeightRequest="20" WidthRequest="20"/>
                 </Frame>
                 <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
-                    <handlers:BorderlessEntry x:Name="titreEntry" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Titre" Keyboard="Email"/>
+                    <handlers:BorderlessEntry Text="{Binding Titre}" x:Name="titreEntry" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Titre" Keyboard="Email"/>
                 </Frame>
             </StackLayout>
 
@@ -37,19 +33,20 @@
                     <Image Source="description.png" HeightRequest="20" WidthRequest="20"/>
                 </Frame>
                 <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
-                    <handlers:BorderlessEntry  x:Name="descriptionEditor" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Description"   Keyboard="Email"/>
+                    <handlers:BorderlessEntry Text="{Binding Description}" x:Name="descriptionEditor" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Description"   Keyboard="Email"/>
                 </Frame>
             </StackLayout>
 
             <Image
+                Source="{Binding ImageSource}"
                 x:Name="Image_Upload"
                 HeightRequest="200"
                 WidthRequest="200"
                 HorizontalOptions="Center"/>
-            
-            <Button Clicked="UploadImage_Clicked"  Text="Chosir une image"  CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="SandyBrown"/>
 
-            <Button Clicked="AddToListButton_Clicked" Text="Ajouter à la liste" Margin="0,20,0,0" CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="DeepSkyBlue"/>
+            <Button Command="{Binding UploadImageCommand}"  Text="Chosir une image"  CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="SandyBrown"/>
+
+            <Button Command="{Binding AddToListCommand}"  Text="Ajouter à la liste" Margin="0,20,0,0" CornerRadius="20"  HorizontalOptions="Center" FontAttributes="Bold" FontFamily="Oswald" BackgroundColor="DeepSkyBlue"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

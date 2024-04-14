@@ -14,5 +14,6 @@ namespace YassineSaddikiApp.Models
         public ObservableCollection<string> Ingredients { get; set; }
         public string Image { get; set; }
         public int Id { get; set; }
+        public string Titre { get; internal set; }
     }
 }

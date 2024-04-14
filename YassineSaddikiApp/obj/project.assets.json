@@ -459,6 +459,22 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.8.0.1"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -2677,6 +2693,22 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.8.0.1"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -4901,6 +4933,22 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.8.0.1"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -7119,6 +7167,22 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.8.0.1"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -9343,6 +9407,22 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.8.0.1"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -11561,6 +11641,22 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.8.0.1"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -13785,6 +13881,22 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.8.0.1"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -16006,6 +16118,22 @@
           }
         }
       },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.8.0.1"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -18202,6 +18330,30 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-ios17.2/android-arm": {
@@ -18635,6 +18787,30 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -19072,6 +19248,30 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-ios17.2/android-x64": {
@@ -19505,6 +19705,30 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -19942,6 +20166,30 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-ios17.2/ios-arm64": {
@@ -20375,6 +20623,30 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -20812,6 +21084,30 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-ios17.2/win10-x64": {
@@ -21245,6 +21541,30 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -21682,6 +22002,30 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/android-arm": {
@@ -22115,6 +22459,30 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -22552,6 +22920,30 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/android-x64": {
@@ -22985,6 +23377,30 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -23422,6 +23838,30 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/ios-arm64": {
@@ -23855,6 +24295,30 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -24292,6 +24756,30 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/win10-x64": {
@@ -24725,6 +25213,30 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -25305,6 +25817,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -25853,6 +26378,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -26405,6 +26943,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
@@ -26953,6 +27504,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -27505,6 +28069,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/ios-arm64": {
@@ -28055,6 +28632,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
@@ -28603,6 +29193,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -29159,6 +29762,19 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugin.Media/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -31313,6 +31929,63 @@
         "packageIcon.png"
       ]
     },
+    "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+      "sha512": "vq+81ZqZz9oHV6iWgGXFnxHAyO5xA73nfvDNu5LwymIK294is5bRo3P063VToAbDRyyc0qq/YFRYjHmiD6Cv8Q==",
+      "type": "package",
+      "path": "system.runtime.interopservices.nfloat.internal/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "ref/net6.0/System.Runtime.InteropServices.dll",
+        "ref/net6.0/System.Runtime.InteropServices.xml",
+        "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
+        "system.runtime.interopservices.nfloat.internal.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Xam.Plugin.Media/6.0.2": {
+      "sha512": "QLl5CXxSDF92+E154djfDKOoPSjvGkQSxYmLY0Fitnb6P4B103JQDU7lZlH0ez67GtzZDa8kWvS0Go0Yv1w9og==",
+      "type": "package",
+      "path": "xam.plugin.media/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Media.dll",
+        "lib/monoandroid10.0/Plugin.Media.pdb",
+        "lib/monoandroid10.0/Plugin.Media.xml",
+        "lib/net6.0-android31.0/Plugin.Media.dll",
+        "lib/net6.0-android31.0/Plugin.Media.pdb",
+        "lib/net6.0-android31.0/Plugin.Media.xml",
+        "lib/net6.0-ios16.1/Plugin.Media.dll",
+        "lib/net6.0-ios16.1/Plugin.Media.pdb",
+        "lib/net6.0-ios16.1/Plugin.Media.xml",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.dll",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.pdb",
+        "lib/net6.0-maccatalyst16.1/Plugin.Media.xml",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.dll",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.pdb",
+        "lib/net6.0-windows10.0.19041/Plugin.Media.xml",
+        "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.pdb",
+        "lib/netstandard2.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.pdb",
+        "lib/tizen40/Plugin.Media.xml",
+        "lib/uap10.0.17763/Plugin.Media.dll",
+        "lib/uap10.0.17763/Plugin.Media.pdb",
+        "lib/uap10.0.17763/Plugin.Media.pri",
+        "lib/uap10.0.17763/Plugin.Media.xml",
+        "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.pdb",
+        "lib/xamarinios10/Plugin.Media.xml",
+        "readme.txt",
+        "xam.plugin.media.6.0.2.nupkg.sha512",
+        "xam.plugin.media.nuspec"
+      ]
+    },
     "Xamarin.Android.Glide/4.15.1.2": {
       "sha512": "DcekP+BXm4jFMV7zjHEltj01uiXcItq1kjGa79pj/Vx1rk3Ac2VXdmwGw06HXDP8n2XZsDh8dAoSI48G4KODRA==",
       "type": "package",
@@ -33357,27 +34030,31 @@
       "Microsoft.Maui.Controls >= 8.0.6",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Xam.Plugin.Media >= 6.0.2"
     ],
     "net8.0-ios17.2": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.6",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Xam.Plugin.Media >= 6.0.2"
     ],
     "net8.0-maccatalyst17.2": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.6",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Xam.Plugin.Media >= 6.0.2"
     ],
     "net8.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.6",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "Xam.Plugin.Media >= 6.0.2"
     ]
   },
   "packageFolders": {
@@ -33467,6 +34144,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[6.0.2, )"
           }
         },
         "imports": [
@@ -33514,6 +34195,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[6.0.2, )"
           }
         },
         "imports": [
@@ -33561,6 +34246,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[6.0.2, )"
           }
         },
         "imports": [
@@ -33603,6 +34292,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[6.0.2, )"
           }
         },
         "imports": [
