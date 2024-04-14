@@ -11,10 +11,10 @@
         <Tab Title="Home" Icon="home.svg">
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
         </Tab>
-        <Tab Title="Second" Icon="buy.svg">
+        <Tab Title="Produits" Icon="buy.svg">
             <ShellContent   ContentTemplate="{DataTemplate local:SecondPage}"/>
         </Tab>
-        <Tab Title="Third" Icon="option.svg">
+        <Tab Title="Ajouter" Icon="option.svg">
             <ShellContent   ContentTemplate="{DataTemplate local:PageThird}"/>
         </Tab>
         <Tab Title="Fourth" Icon="option.svg">

@@ -30,7 +30,7 @@
                 TextColor="SaddleBrown"
                 FontSize="13"
                 Margin="0,15,0,0"/>-->
-            <CarouselView x:Name="carouselView" IndicatorView="indicatorView">
+            <CarouselView  ItemsSource="{Binding Items}" x:Name="carouselView" IndicatorView="indicatorView">
                 <!--
                 <CarouselView.ItemsSource>
                     <x:Array Type="{x:Type x:String}">

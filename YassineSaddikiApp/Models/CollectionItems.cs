@@ -1,6 +1,6 @@
 ﻿namespace YassineSaddikiApp.Models
 {
-    class CollectionItems
+    public class CollectionItems
     {
         public string Title { get; set; }
 
