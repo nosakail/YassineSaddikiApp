@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Shell.NavBarIsVisible="False"
@@ -9,23 +8,23 @@
             <Image 
                 x:Name="stonksgif"
                 Source="stonks.gif"
-                HeightRequest="200" 
-                HorizontalOptions="Center" 
-                IsAnimationPlaying="True"/>
+                HeightRequest="200"
+                HorizontalOptions="Center"
+                IsAnimationPlaying="{Binding IsAnimationPlaying}"/>
 
             <Image Source="imgpromo.png" />
 
             <Button 
-                Text="BACK" 
-                CornerRadius="10" 
-                BackgroundColor="SandyBrown" 
-                FontAttributes="Bold" 
-                FontSize="20" 
-                TextColor="White" 
-                FontFamily="Oswald" 
+                Text="BACK"
+                CornerRadius="10"
+                BackgroundColor="SandyBrown"
+                FontAttributes="Bold"
+                FontSize="20"
+                TextColor="White"
+                FontFamily="Oswald"
                 Padding="10"
-                Margin="20" 
-                Clicked="Clicked"/>
+                Margin="20"
+                Command="{Binding BackCommand}"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

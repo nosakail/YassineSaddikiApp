@@ -1,27 +1,21 @@
+using YassineSaddikiApp.ViewModels;
+
 namespace YassineSaddikiApp;
 
 public partial class GifPage : ContentPage
 {
-	public GifPage()
-	{
-		InitializeComponent();
-        OnAppearing();
-
-    }
-
-
-    private async void Clicked(object sender, EventArgs e)
+    public GifPage()
     {
-        await Navigation.PushAsync(new HomePage());
+        InitializeComponent();
+        BindingContext = new GifPageViewModel();
     }
 
     protected override async void OnAppearing()
     {
-
         base.OnAppearing();
         await Task.Delay(100);
-        stonksgif.IsAnimationPlaying = false;
+        ((GifPageViewModel)BindingContext).IsAnimationPlaying = false;
         await Task.Delay(100);
-        stonksgif.IsAnimationPlaying = true;
+        ((GifPageViewModel)BindingContext).IsAnimationPlaying = true;
     }
 }
