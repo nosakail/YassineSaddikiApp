@@ -4,6 +4,11 @@
              Shell.NavBarIsVisible="False"
              x:Class="YassineSaddikiApp.SecondPage"
              Background="White">
+    
+    <ContentPage.BindingContext>
+        <vm:SecondPageViewModel xmlns:vm="clr-namespace:YassineSaddikiApp.ViewModels" />
+    </ContentPage.BindingContext>
+    
     <ScrollView>
         <VerticalStackLayout>
             <Label 
@@ -16,7 +21,7 @@
                 FontFamily="Oswald"
                 />   
             <StackLayout>
-                <ListView x:Name="coffeeListView" Margin="0,20,0,0">
+                <ListView ItemsSource="{Binding CoffeeItemsList}" x:Name="coffeeListView" Margin="0,20,0,0">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

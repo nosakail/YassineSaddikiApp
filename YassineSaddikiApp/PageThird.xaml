@@ -5,6 +5,10 @@
              Shell.NavBarIsVisible="False"
              x:Class="YassineSaddikiApp.PageThird"
              >
+    <ContentPage.BindingContext>
+        <vm:SecondPageViewModel xmlns:vm="clr-namespace:YassineSaddikiApp.ViewModels" />
+    </ContentPage.BindingContext>
+    
     <ScrollView>
         <VerticalStackLayout>
             <Label 

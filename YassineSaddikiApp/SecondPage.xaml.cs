@@ -1,33 +1,25 @@
 using Newtonsoft.Json;
 using YassineSaddikiApp.Models.ViewModels;
+using YassineSaddikiApp.ViewModels;
 
 namespace YassineSaddikiApp
 {
     public partial class SecondPage : ContentPage
     {
+        SecondPageViewModel viewModel;
+
         public SecondPage()
         {
             InitializeComponent();
+            viewModel = new SecondPageViewModel();
+            BindingContext = viewModel;
             LoadCoffeeData();
             coffeeListView.ItemTapped += CoffeeListView_ItemTapped;
         }
 
-        
-
         private async void LoadCoffeeData()
         {
-            try
-            {
-                HttpClient client = new HttpClient();
-                string url = "https://api.sampleapis.com/coffee/hot";
-                string json = await client.GetStringAsync(url);
-                List<CoffeeItems> coffees = JsonConvert.DeserializeObject<List<CoffeeItems>>(json);
-                coffeeListView.ItemsSource = coffees;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+            viewModel.LoadDataCommand.Execute(null);
         }
 
         private async void CoffeeListView_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -37,22 +29,5 @@ namespace YassineSaddikiApp
                 await Navigation.PushAsync(new CoffeeDetailPage(coffee));
             }
         }
-
-        public void AddCoffeeItem(string title, string description, string image)
-        {
-            var newCoffee = new CoffeeItems
-            {
-                Title = title,
-                Description = description,
-                Image = image
-            };
-
-            
-            ((List<CoffeeItems>)coffeeListView.ItemsSource).Add(newCoffee);
-        }
-
-
     }
-
-
 }
