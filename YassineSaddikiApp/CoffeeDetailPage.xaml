@@ -3,11 +3,16 @@
              x:Class="YassineSaddikiApp.CoffeeDetailPage"
              Shell.NavBarIsVisible="False"
              Background="White">
+
+    <ContentPage.BindingContext>
+        <vm:CoffeeDetailPageViewModel xmlns:vm="clr-namespace:YassineSaddikiApp.ViewModels" />
+    </ContentPage.BindingContext>
+
     <ScrollView>
         <StackLayout Padding="20">
-            <Image x:Name="coffeeImage" HeightRequest="200" Aspect="AspectFill" />
-            <Label x:Name="titleLabel" FontAttributes="Bold" FontSize="24" TextColor="Black" Margin="0,10,0,0"/>
-            <Label x:Name="descriptionLabel" FontSize="16" TextColor="Black" Margin="0,10,0,0"/>
+            <Image Source="{Binding Coffee.Image}" x:Name="coffeeImage" HeightRequest="200" Aspect="AspectFill" />
+            <Label Text="{Binding Coffee.Title}" x:Name="titleLabel" FontAttributes="Bold" FontSize="24" TextColor="Black" Margin="0,10,0,0"/>
+            <Label Text="{Binding Coffee.Description}" x:Name="descriptionLabel" FontSize="16" TextColor="Black" Margin="0,10,0,0"/>
 
             <Button 
                 Text="BACK" 
