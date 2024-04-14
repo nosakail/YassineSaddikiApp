@@ -14,10 +14,10 @@
         <Tab Title="Produits" Icon="buy.svg">
             <ShellContent   ContentTemplate="{DataTemplate local:SecondPage}"/>
         </Tab>
-        <Tab Title="Ajouter" Icon="option.svg">
+        <Tab Title="Ajouter" Icon="plus.svg">
             <ShellContent   ContentTemplate="{DataTemplate local:PageThird}"/>
         </Tab>
-        <Tab Title="Fourth" Icon="option.svg">
+        <Tab Title="Fourth" Icon="profile.svg">
             <ShellContent  ContentTemplate="{DataTemplate local:FourthPage}"/>
         </Tab>
     </TabBar>

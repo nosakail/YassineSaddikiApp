@@ -2148,3 +2148,8 @@ C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-an
 C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\lp\158\jl\files.cache
 C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\android\assets\Plugin.Media.dll
 C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\android\src\crc646957603ea1820544\MediaPickerActivity.java
+C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\plus.png
+C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\plus.png
+C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\plus.png
+C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\plus.png
+C:\Users\yassi\Documents\YassineSaddikiApp\YassineSaddikiApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\plus.png
