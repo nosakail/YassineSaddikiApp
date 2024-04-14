@@ -30,6 +30,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.CoffeeDe
 build_metadata.AdditionalFiles.TargetPath = CoffeeDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CoffeeDetailPage.xaml
 
+[C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/EndingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.EndingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EndingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EndingPage.xaml
+
 [C:/Users/yassi/Documents/YassineSaddikiApp/YassineSaddikiApp/FourthPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = YassineSaddikiApp.FourthPage.xaml

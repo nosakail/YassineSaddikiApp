@@ -15,6 +15,9 @@
     <MauiXaml Update="CoffeeDetailPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="EndingPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="FourthPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

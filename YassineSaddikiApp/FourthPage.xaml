@@ -4,10 +4,20 @@
              x:Class="YassineSaddikiApp.FourthPage"
              Shell.NavBarIsVisible="False"
              Title="FourthPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to 4"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image Source="profileconnection.png"
+                   HorizontalOptions="Center" />
+            <Entry Placeholder="Nom d'utilisateur"
+                   Text="{Binding Username}"
+                   HorizontalOptions="Center" />
+            <Entry Placeholder="Mot de passe"
+                   Text="{Binding Password}"
+                   IsPassword="True"
+                   HorizontalOptions="Center" />
+            <Button Text="Se connecter"
+                    Command="{Binding LoginCommand}"
+                    HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

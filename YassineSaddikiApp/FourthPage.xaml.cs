@@ -4,8 +4,9 @@ public partial class FourthPage : ContentPage
 {
 	public FourthPage()
 	{
-		InitializeComponent();
+        InitializeComponent();
+        BindingContext = new FourthPage();
 
-        
+
     }
 }

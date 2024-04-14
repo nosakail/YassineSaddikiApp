@@ -17,7 +17,7 @@
         <Tab Title="Ajouter" Icon="plus.svg">
             <ShellContent   ContentTemplate="{DataTemplate local:PageThird}"/>
         </Tab>
-        <Tab Title="Fourth" Icon="profile.svg">
+        <Tab Title="Profil" Icon="profile.svg">
             <ShellContent  ContentTemplate="{DataTemplate local:FourthPage}"/>
         </Tab>
     </TabBar>
