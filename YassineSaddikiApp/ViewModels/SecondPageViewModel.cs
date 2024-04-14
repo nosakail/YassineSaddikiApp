@@ -7,8 +7,9 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using YassineSaddikiApp.Models.ViewModels;
+//using YassineSaddikiApp.Models.ViewModels;
 using Newtonsoft.Json;
+using YassineSaddikiApp.Models;
 
 
 namespace YassineSaddikiApp.ViewModels

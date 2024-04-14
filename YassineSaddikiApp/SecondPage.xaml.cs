@@ -1,5 +1,6 @@
 using Newtonsoft.Json;
-using YassineSaddikiApp.Models.ViewModels;
+using YassineSaddikiApp.Models;
+//using YassineSaddikiApp.Models.ViewModels;
 using YassineSaddikiApp.ViewModels;
 
 namespace YassineSaddikiApp

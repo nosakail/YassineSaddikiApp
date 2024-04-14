@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YassineSaddikiApp.Models.ViewModels
+namespace YassineSaddikiApp.Models
 {
     public class CoffeeItems
     {
